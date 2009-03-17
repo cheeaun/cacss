@@ -1,0 +1,9 @@
+body{ border: 0 }
+
+h1, h2, h3, h4, h5, h6{ position: relative; }
+
+fieldset{ padding-top: 0; }
+
+legend{ margin-bottom: 1em; }
+
+abbr{ border-bottom: 1px dotted; }
