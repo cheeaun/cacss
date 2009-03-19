@@ -13,6 +13,7 @@ body{
 	background-color: #fff;
 	margin: 0;
 	padding: 1.5em;
+	border: 0;
 	font-size: 75%;
 }
 
@@ -29,6 +30,7 @@ img, a img{ border: 0; }
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
+	*position: relative;
 }
 
 h1{
@@ -136,6 +138,8 @@ dfn{
 	font-weight: bold;
 }
 
+abbr{ border-bottom: 1px dotted; }
+
 form{
 	margin: 0;
 	padding: 0;
@@ -144,10 +148,12 @@ form{
 fieldset{
 	border: 1px solid #ccc;
 	padding: 1em;
+	*padding-top: 0;
 }
 
 legend{
 	font-weight: bold;
+	*margin-bottom: 1em;
 }
 
 input, select, textarea, button{
