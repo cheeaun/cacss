@@ -201,6 +201,10 @@ ul.fields li{ padding: .3em 0; }
 .clear{ clear: both; }
 .hide{ display: none; }
 
-.note{}
-.example{}
+.copyright{}
 .error{}
+.example{}
+.issue{}
+.note{}
+.search{}
+.warning{}
