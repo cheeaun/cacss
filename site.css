@@ -16,3 +16,9 @@ table th,
 table td{
 	border: 1px solid #ccc;
 }
+
+#fork{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
