@@ -168,6 +168,7 @@ textarea{ overflow: auto; }
 
 input.button, button{
 	padding: 0 .5em;
+	*overflow: visible;
 }
 
 input.text{}
